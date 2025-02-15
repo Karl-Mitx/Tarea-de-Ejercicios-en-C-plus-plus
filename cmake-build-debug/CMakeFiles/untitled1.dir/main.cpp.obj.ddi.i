@@ -41573,5 +41573,23 @@ int main() {
 }
     }
 
+    int f;
+    cout << "Vuelva a ingresar un numero mayor a 10 y menor que 30";
+    cout << endl;
+    cin >> f;
+    if (f <= 10 || f >= 30) {
+        cout << "El numero " << f << " no esta entre 10 y 30, intente de nuevo";
+    } else {
+        cout << "Los numeros impares desde 1 a " << f << " son estos: ";
+        cout << endl;
+        int i = 1;
+        while (i <= f) {
+            cout << i << " ";
+            i += 2;
+            cout << endl;
+        }
+    }
+
+
     return 0;
 }
