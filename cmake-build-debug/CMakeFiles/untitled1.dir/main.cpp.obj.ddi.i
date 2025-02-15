@@ -41555,9 +41555,23 @@ int main() {
         cout << "El factorizado de " << d << " es " << factorial << endl;
     }
 
+    cout << endl;
+    int e;
+    cout << "Ingrese un numero mayor a 10 y menor que 30";
+    cout << endl;
+    cin >> e;
 
+    if (e <= 10 || e >= 30) {
+        cout << "El numero " << e << " no esta entre 10 y 30, intente de nuevo";
+    } else {
+        cout << "Los numeros impares desde 1 a " << e << " son estos: ";
+        cout << endl;
 
-
+        for (int i = 1; i <= e; i += 2) {
+            cout << i << " ";
+            cout << endl;
+}
+    }
 
     return 0;
 }
