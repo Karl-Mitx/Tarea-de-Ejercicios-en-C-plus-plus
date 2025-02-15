@@ -25,10 +25,10 @@ int main() {
     cout << "Escriba el segundo numero: ";
     cin >> b;
     if (a > b) {
-        cout << "El numero " << a << " es mayor de los dos numeros";
+        cout << "El numero " << a << " es el mayor de los dos numeros";
     } else {
         if (a < b) {
-            cout << "El numero " << a << " es menor de los dos numeros";
+            cout << "El numero " << a << " es el menor de los dos numeros";
         }
         else {
             if (a == b) {
@@ -36,6 +36,23 @@ int main() {
             }
         }
     }
+    //  Escribir un programa que pida al usuario un número entero y determine si es par o impar.
+    cout << endl;
+    int c;
+    cout << "Escriba un numero entero y se determinara si es par o impar";
+    cout << endl;
+    cout << "Escriba el numero: ";
+    cin >> c; cout << endl;
+    if (c % 2 == 0) {
+        cout << "El numero " << c << " es par";
+    }
+    else {
+        cout << "El numero " << c << " es impar";
+    }
+
+
+
+
 
 
     return 0;
