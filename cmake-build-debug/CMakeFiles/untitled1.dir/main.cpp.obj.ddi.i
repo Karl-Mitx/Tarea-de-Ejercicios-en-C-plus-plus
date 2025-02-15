@@ -41486,6 +41486,7 @@ using namespace std;
 
 int main() {
 
+
     cout << "Escribir un programa que pida al usuario su edad y determine si es mayor de edad o no.";
     int edad;
     cout << endl;
@@ -41532,6 +41533,27 @@ int main() {
         cout << "El numero " << c << " es impar";
     }
 
+
+
+    cout << endl;
+    int d;
+    long long factorial = 1;
+    cout << "Ingrese un numero para calcular su factorial";
+    cout << endl;
+    cout << "Escriba el numero: ";
+    cout << endl;
+    cin >> d;
+
+    if (d < 0) {
+        cout << "El numero negativo no existe en un factorial";
+    } else {
+        int i = 1;
+        while (i <= d) {
+            factorial *= i;
+            i++;
+        }
+        cout << "El factorizado de " << d << " es " << factorial << endl;
+    }
 
 
 
